@@ -9,9 +9,9 @@ const formBtn=itemform.querySelector('button')
 itemform.addEventListener("submit",(e)=>{
     e.preventDefault();
 
-    const itemvalue=iteminput.value;
+    const itemvalue=iteminput.value.trim();
     
-    if(itemvalue.value === ''){
+    if(itemvalue === ''){
         alert("Please enter the item")
         return;
     }
