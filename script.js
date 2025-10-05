@@ -11,7 +11,7 @@ itemform.addEventListener("submit",(e)=>{
 
     const itemvalue=iteminput.value;
     
-    if(itemvalue.value ===''){
+    if(itemvalue.value === ''){
         alert("Please enter the item")
         return;
     }
